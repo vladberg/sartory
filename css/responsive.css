@@ -1,0 +1,133 @@
+/*
+Title:   Responsive rules Css File
+Author:  http://themeforest.net/user/hogash // Marius Hogas */
+
+@media screen 
+and (min-width : 1280px) 
+and (max-width: 1366px) {
+	.iosSlider .slider .item .caption.style3 { 
+	-webkit-transform:scale(0.8); -webkit-transform-origin:0 100%;
+	-moz-transform:scale(0.8); -moz-transform-origin:0 100%;
+	-o-transform:scale(0.8); -o-transform-origin:0 100%;
+	-ms-transform:scale(0.8); -ms-transform-origin:0 100%;
+	transform:scale(0.8); transform-origin:0 100%;
+	}
+	.iosSlider .slider .item .caption.style3.fromright { -webkit-transform-origin:100% 100%; -moz-transform-origin:0 100%; -o-transform-origin:0 100%; -ms-transform-origin:0 100%; transform-origin:0 100%; }
+}
+
+@media screen 
+and (max-width: 1024px)
+and (min-width : 1280px)  {
+	.iosSlider .slider .item .caption { width: 960px; margin-left: -480px; }
+	.iosSlider .slider .item .caption .main_title {margin-left:100px;} 
+}
+
+/* DEVICES WITHOUT META WIDTH=1 */
+@media screen 
+and (max-width: 980px)
+and (min-width :980px)  {
+	
+	body .testimonial_box {width:50% !important;}
+	.header-titles h4 {font-size:14px;}
+	
+	.iosSlider .slider .item .caption { 
+	-webkit-transform:scale(0.7); -webkit-transform-origin:50% 100%;
+	-moz-transform:scale(0.7); -moz-transform-origin:50% 100%;
+	-o-transform:scale(0.7); -o-transform-origin:50% 100%;
+	-ms-transform:scale(0.7); -ms-transform-origin:50% 100%;
+	transform:scale(0.7); transform-origin:50% 100%;
+	}
+	.iosSlider .prev,
+	.iosSlider .next {width: 70px;
+	-webkit-transform:scale(0.7); -webkit-transform-origin:0 50%;
+	-moz-transform:scale(0.7); -moz-transform-origin:0 50%;
+	-o-transform:scale(0.7); -o-transform-origin:0 50%;
+	-ms-transform:scale(0.7); -ms-transform-origin:0 50%;
+	transform:scale(0.7); transform-origin:0 50%;
+	}
+	body .iosSlider .item .caption .main_title {margin-bottom:20px;}
+	body .iosSlider .item .caption.style3 {bottom:30px;}
+	body .iosSlider .item .caption.style3 .title_big span.stronger {font-size: 130px; display: block; line-height: 1;}
+	
+	.selectorsBlock.thumbs .selectors .item img { max-width:100px;}
+	
+	body .iosSlider.fixed {height:390px;}
+	
+	body .gobox h4 { font-size: 15px;line-height: 1.2;}
+	body .gobox.ok > img { margin-bottom: 10px; }
+	
+	.header-titles h4 {font-size:14px;}
+	
+	.css3accordion {width:940px;}
+	.css3accordion>ul>li {width: 235px; }
+	.css3accordion>ul>li>.inner-acc { width:470px; }
+	.css3accordion>ul>li .thumb { max-width: 236px; }
+	.css3accordion>ul>li.last,
+	.css3accordion>ul>li:hover {width:470px;}
+	.css3accordion .content > .m_title {font-size: 12px; line-height: 1.3; margin:8px 0;}
+	.css3accordion .text {font-size:11px; line-height:1.4; }
+	.process_steps .step {min-height: 240px;}
+	.process_steps .step.intro > h3 {font-size: 20px;}
+	.process_steps .step.intro > h3 + p {font-size: 12px;}
+	.process_steps .step .icon {margin: 10px 0 5px;}
+	.process_steps .step .icon + h3 {line-height: 1.4;font-size: 20px;}
+	.process_steps .step .icon + h3 + p{font-size: 12px;}
+	.newsletter-signup input[type="text"] {width:190px;}
+	
+	body .ca-item h3 {font-size:20px;}
+	body .ca-content-text { font-size: 12px; }
+	
+	.productzoom-style h3 { font-size:20px; }
+	.productzoom-style .row { margin-bottom:0; }
+	.static-content .features li {font-size:12px;}
+	#screenshot {-webkit-transform: scale(0.8); -webkit-transform-origin: 0 50%; -moz-transform: scale(0.8); -moz-transform-origin: 0 50%; -o-transform: scale(0.8); -o-transform-origin: 0 50%; -ms-transform: scale(0.8); -ms-transform-origin: 0 50%; transform: scale(0.8); transform-origin: 0 50%; }
+	.btn-large {font-size:14px; padding:7px 10px;}
+	
+	.static-content.event-style .or {display:none;}
+	
+	body #css3panels { height: 450px;}
+	body #css3panels .panel img {max-height: 460px;}
+	body #css3panels .caption {top:300px; width:300px;}
+	body #css3panels .caption.upper {top:250px;}
+	
+	#skills_diagram .legend {right:-15px;}
+	
+	.limited-offers-carousel {width:582px; }
+	.limited-offers-carousel .controls {width:38px; right:-38px;}
+	.limited-offers-carousel .controls a { width: 34px; }
+	
+	.timeline_box:before {right: -16px;}
+	div[data-align=right] .timeline_box:before { left:-15px;}
+	              
+	.services_box.style2 .box {overflow:hidden;}
+	
+	.feature_box.style3 .box {font-size:12px;}
+	
+	.how_to_shop > .row {margin-bottom:10px;font-size:12px;}
+	
+	.thescreenshot {width:480px; height:271px; background:url(../images/screenshotbox-bg-smaller.png) no-repeat left top;}
+	.screenshot-box .left-side {width: 350px;}
+	.screenshot-box .left-side h3.title {font-size: 16px;}
+	.screenshot-box .left-side ul.features {margin: 15px 0;}
+	.screenshot-box .left-side ul.features li {margin-top: 10px;}
+	
+	#footer .contact-details {background: url(../images/say_hi_smaller.png) no-repeat right top;}
+	
+	header { height: 80px;}
+	header.style2 #logo a {padding: 9px 25px;}
+	.topnav {margin:5px 0;}
+	#search .searchBtn {margin-top:5px;}
+	nav#main_menu > ul { margin: 10px 0 15px;}
+	
+	.static-content.boxes-style .boxes .info_pop {margin: 0 15px;}
+	.static-content.boxes-style .boxes {margin-bottom: 0;}
+	.static-content.boxes-style .boxes .info_pop .title {font-size: 16px;}
+	
+	.video-container #the-video, .video-container #the-video img {min-height:530px;}
+	
+	.fancy_register_form label {width: 80px;}
+	
+	.portfolio-slider-frames #carousel, .portfolio-slider-frames #carousel > div {width: 980px;}
+	
+	.hg-portfolio-sortable ul#thumbs li {width:210px;}
+}

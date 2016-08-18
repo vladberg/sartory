@@ -1,0 +1,7 @@
+<?php
+function porcentaje($cantidad,$porciento,$decimales){
+
+return number_format($cantidad*$porciento/100 ,$decimales);
+}
+
+?>

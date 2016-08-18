@@ -1,0 +1,337 @@
+/*
+Title:   Custom Css File
+Author:  http://themeforest.net/user/hogash // Marius Hogas
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+I WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.query_rule {color:#000;}
+.important{background-color:#CD2122 !important; padding:0 10px 0 10px !important;}
+.bg_process_steps{width:100%; height:14px;  margin-bottom:15px; background:url(../images/bg_process_steps.png) top no-repeat;}
+.product-list-item{
+	background: #f3f3f3;
+	height:auto; margin-bottom:20px;
+	/*height: 395px;*/
+	}
+
+.no-margin {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.list-colors {
+	list-style: none;
+	margin: 0;
+}
+
+.list-colors li {
+	display: inline-block;
+	text-align: center;
+	border: 2px solid transparent;
+}
+
+.list-colors li.color-selected {
+	border: 2px solid #CD2122;
+	border-radius: 5px;
+}
+
+.list-colors li.color-selected label {
+	color: #CD2122;
+}
+
+.btnSelectColor:active,
+.btnSelectColor:focus,
+.btnSelectColor:hover {
+	color: #CD2122;
+	cursor: pointer;
+}
+
+.title-step {
+	background: #787878;
+	color: #FFFFFF;
+	padding-left: 10px;
+	text-align: left
+}
+
+.pricing-table {
+	
+}
+.pricing-table th, .pricing-table td {
+	border: 0;
+	padding-top: 10px;
+	font-size: 12px;
+	text-align: center;
+	border-right: 1px solid #c8c8c8;
+}
+
+.pricing-table th, .pricing-table td .save {
+	color: #ff0000;
+}
+
+.tabs_style1 > ul.nav > li.active > a, .tabs_style1 > ul.nav > li > a:hover {
+	background-image: url(../images/icons/button-check_red.png);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 0px 5px;
+	
+}
+
+#ipt_cantidad {
+	text-align: right;
+}
+
+.form-list {
+	list-style: none;
+	margin: 0;
+}
+
+.form-list li {
+	display: inline-block;
+	padding: 10px 10px 10px 0;
+}
+
+.custom_checkbox {
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	background-size: 16px 16px;
+}
+
+.custom_checkbox:hover {
+	cursor: pointer;
+}
+
+.custom_checkbox input {
+	display: none;
+}
+
+.custom_checkbox.chk_checked {
+	background-image: url('../images/icons/redtick_40.jpg');
+}
+.custom_checkbox.chk_unchecked {
+	background-image: url('../images/icons/square-unfilled.png');
+}
+
+.table_total_ammounts tr td {
+	text-align: right;
+	vertical-align: top;
+}
+
+/*.border-light img {*/
+.border-light {
+	border: 1px solid #CCCCCC;
+}
+
+.tabla-detalle-producto tr td {
+	padding: 0;
+	border: 0;
+	vertical-align: middle;
+}
+.tabla-detalle-producto tr td input,
+.tabla-detalle-producto tr td select {
+	margin-bottom: 4px;
+}
+
+.layer-bk {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.50);
+	z-index: 10000;
+}
+
+.root-explorer {
+	/*position: absolute;*/
+	position: fixed;
+	width: 800px;
+	height: 450px;
+	top: 50%;
+	left: 50%;
+	margin-top: -225px;
+	margin-left: -400px;
+	background: #FFFFFF;
+	border: 3px solid #cd2122;
+	border-radius: 15px;
+	z-index: 50000;
+	text-align: center;
+}
+
+.root-explorer .close_modal {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-weight: bold;
+	color: #cd2122;
+}
+
+#boton_descargar {
+	font-weight: bold;
+	color: #cd2122;
+}
+
+/*.image-selected img {*/
+.image-selected {
+	border: 1px solid #cd2122;
+}
+
+/* LIST #2 */
+#list2 {
+	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+	
+	margin: 0;
+	vertical-align: top;
+}
+#list2 .number {
+	font-size: 28px;
+	font-weight: bold;
+}
+#list2 .number p {
+	padding: 0px 0px 8px 8px;
+	font-style: normal;
+	font-size: 13px;
+	font-weight: 100;
+	border-left: 1px solid #000000;
+}
+
+#list2 .letter {
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 25px;
+	padding-left: 0;
+}
+#list2 .letter p {
+	padding: 0px 0px 8px 0;
+	font-style: normal;
+	font-size: 13px;
+	font-weight: 100;
+	border: 0;
+}
+
+.divider {
+	background: #c1c1c1;
+	height: 1px;
+}
+
+.marginless {
+	margin: 0;
+	padding: 0;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
+.margin-top {
+	margin-top: 20px;
+}
+
+.main-title {
+	font-size: 32px;
+	margin: 0;
+}
+
+.secondary-title {
+	font-size: 24px;
+	margin: 0;
+}
+
+.description {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+#no-margin {
+	margin-bottom: 0;
+}
+
+.list-inline {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.list-inline li {
+	display: inline-block;
+	margin-left: 20px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.contact-table {
+	/*width: 100%;*/
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.remove-margin {
+	margin: 0;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.g-label {
+	color: #E81D1D;
+	/*background-color: white;*/
+	font-family: "Lucida Grande", "Arial", sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	/*width: 40px;
+	border: 2px solid black;
+	white-space: nowrap;*/
+}
+
+.contenedor-vista {
+	display: inline-block;
+	height: 50px;
+	margin: 0 2px;
+	overflow: hidden;
+	width: 50px;
+}
+
+.width300 {
+	width: 300px;
+}
+
+.width48 {
+	width: 48px;
+}
+
+.product-list-item .image {
+	overflow: hidden;
+}
+
+.product-list-item img {
+	max-height: 250px;
+}
+
+.bg0 {
+	background: #FFFFFF;
+}
+
+.m-margin-bottom {
+	margin-bottom: 250px;
+}
+
+.m-margin-top {
+	margin-top: 200px;
+}
+
+#page_header {
+	border-bottom: 0;
+}
+
+#page_header:before {
+	background: none;
+}
+
+#page_header .container.paddingless {
+	padding: 0;
+}
